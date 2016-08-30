@@ -55,3 +55,80 @@ p {
     margin: auto;
     padding: 20px;    
 }
+
+.text-aling-right {
+    text-align: left;
+    color: black;
+}
+
+.text-aling-center {
+    text-align: center;
+}
+
+#about-h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.about-h2 {
+    font-weight: normal;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px; 
+}
+
+
+.about-div1 {
+    background-color: lightgrey;
+    color: grey;
+    width: 75%;
+    display: inline-block;
+}
+
+.about-div-2 {
+    display: inline-block;
+}
+
+.about-div-2 img {
+    width: 160px;
+    height: 138px;
+}
+
+button {
+    background-color: black;
+    color:white;
+    width: 130px;
+    height: 50px;
+    border: 1px solid grey;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+td {
+    line-height: 1.0;
+}
+
+tr{
+    padding: 0px;
+    margin: 0px;
+}
+
+.about-table-td {
+    padding-left: 50px;
+}
+
+.services-div img {
+    width: 230px;
+    height: 200px;
+}
+
+.big-font {
+    font-size: 25px;
+}
+
+.service-main-pic {
+    width: 100%;
+    border:1px solid black;
+}
+
+.services-heading{
+    font-family: 'Pacifico', cursive;
+}
