@@ -132,3 +132,78 @@ tr{
 .services-heading{
     font-family: 'Pacifico', cursive;
 }
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 20%;
+    margin: 10px;
+    text-align: left;
+}
+
+input {
+    display:inline-block;
+    float: left;
+    clear: right;
+}
+
+select {
+    display: inline-block;
+    float: left;
+}
+
+.float-left {
+    float: left;
+    display: inline-block;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+legend{
+    background-color: lightgrey;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.drop-down-list {
+    display: none;
+    border: none;
+}
+
+.drop-down-list li {
+    display: block;
+    margin: 0px;
+    padding: 15px;
+}
+
+.drop-down:hover .drop-down-list {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    /*width: 100px;*/
+    margin-left: 180px;
+    margin-top: 5px;
+    text-align: left;
+} 
+
+
+.drop-down-list1 {
+    display: none;
+    border: none;
+}
+
+.dropdown-more:hover .drop-down-list1 {
+    display: block;
+    margin-left: 20px;
+}
+
+
+
+

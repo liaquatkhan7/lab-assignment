@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
     <title>Traveling Agency</title>
 </head>
@@ -37,7 +38,46 @@
                 tastes and dreams.
                 Give Signature the opportunity to serve you.
             </p>-->
-            <h1>CONTACT Page</h1>
+            <h1 class="services-heading">Contact Us</h1>
+
+            <form>
+                <fieldset>
+                    <legend>Submit Your Querrys Here</legend>
+         
+                <label for="name">Name:</label>
+                    <input id="name" type="text" name="username" required>
+      
+                <label for="lname">Last Name:</label>
+                    <input type="text" name="lastname" id="lname" required>
+         
+                <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+      
+                <label for="number">Number:</label>
+                    <input type="number" name="Fnumber" id="number" required>
+    
+       
+                <label for="rate-us">Rate us:</label>
+                    <select name="Rateus" id="rate-us">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+   
+                    <p class="text-aling-right float-left">Where did you hear about us</p>
+                    <input type="radio" name="hear-about" value="Friends" id="friends">
+                    <input type="radio" name="hear-about" value="news" id="news">
+                    <input type="radio" name="hear-about" value="comercial" id="add">
+                   
+                </fieldset>
+            </form>
         </div>
     </div>
 </body>
